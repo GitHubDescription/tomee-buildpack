@@ -29,10 +29,10 @@ lifecycle_support:
 logging_support:
   version: 3.+
   repository_root: "{default.repository.root}/tomcat-logging-support"
-access_logging_support:
-  version: 3.+
-  repository_root: "{default.repository.root}/tomcat-access-logging-support"
-  access_logging: disabled
+#access_logging_support:
+#  version: 3.+
+#  repository_root: "{default.repository.root}/tomcat-access-logging-support"
+#  access_logging: disabled
 resource_configuration:
   version: 1.+
   repository_root: "{default.repository.root}/tomee-resource-configuration"

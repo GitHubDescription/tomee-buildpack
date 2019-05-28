@@ -51,7 +51,7 @@ module Package
     DEFAULT_REPOSITORY_ROOT_PATTERN = /\{default.repository.root\}/.freeze
 
     NAME_MAPPINGS = {
-#      'access_logging_support' => 'Tomcat Access Logging Support',
+      'access_logging_support' => 'Tomcat Access Logging Support',
       'agent' => 'Java Memory Assistant Agent',
       'app_dynamics_agent' => 'AppDynamics Agent',
       'azure_application_insights_agent' => 'Azure Application Insights Agent',

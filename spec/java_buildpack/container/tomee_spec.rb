@@ -22,7 +22,7 @@ require 'java_buildpack/container/tomcat/tomcat_insight_support'
 require 'java_buildpack/container/tomcat/tomcat_instance'
 require 'java_buildpack/container/tomcat/tomcat_lifecycle_support'
 require 'java_buildpack/container/tomcat/tomcat_logging_support'
-require 'java_buildpack/container/tomcat/tomcat_access_logging_support'
+#require 'java_buildpack/container/tomcat/tomcat_access_logging_support'
 require 'java_buildpack/container/tomcat/tomcat_redis_store'
 require 'java_buildpack/container/tomee'
 
@@ -35,7 +35,7 @@ describe JavaBuildpack::Container::Tomee do
     { 'tomee' => tomee_configuration,
       'lifecycle_support' => lifecycle_support_configuration,
       'logging_support' => logging_support_configuration,
-      'access_logging_support' => access_logging_support_configuration,
+#      'access_logging_support' => access_logging_support_configuration,
       'redis_store' => redis_store_configuration,
       'external_configuration' => tomcat_external_configuration }
   end
